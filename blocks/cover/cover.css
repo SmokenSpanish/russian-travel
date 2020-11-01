@@ -1,0 +1,10 @@
+.cover{
+    width: 95.5%;
+    color: #FFFFFF;
+    margin: 92px auto;
+    border: 2px solid red;
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+    display: flex;
+    z-index: 0;
+}
