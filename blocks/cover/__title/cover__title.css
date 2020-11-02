@@ -8,4 +8,5 @@
     margin: 245px auto 0;
     border: 2px solid red;
     text-align: center;
+    position: relative;
 }
