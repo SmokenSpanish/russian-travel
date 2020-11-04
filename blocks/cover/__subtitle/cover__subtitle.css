@@ -5,7 +5,9 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 122%;
-    margin: 32px auto 245px;
+    margin-top: 32px;
     border: 2px solid red;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
