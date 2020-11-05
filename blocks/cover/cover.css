@@ -1,5 +1,5 @@
 .cover {
-    width: 92.5%;
+    min-height: 740px;
     color: #FFFFFF;
     margin: 92px auto;
     border: 2px solid red;
@@ -32,4 +32,25 @@
 
 .cover:hover {
     cursor: pointer;
+}
+
+@media all and (max-width: 1024px){
+    .cover{
+        min-height: 640px;
+        margin: 92px -48px;
+    }
+}
+
+@media all and (max-width: 768px){
+    .cover{
+        min-height: 480px;
+        margin: 92px -48px;
+    }
+}
+
+@media all and (max-width: 320px){
+    .cover{
+        min-height: 200px;
+        margin: 66px -16px 64px;
+    }
 }

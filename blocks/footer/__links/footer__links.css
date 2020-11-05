@@ -2,5 +2,10 @@
     display: flex;
     list-style-type: none;
     padding-left: 0;
-    padding-bottom: 24px;
+}
+
+@media all and (max-width: 320px){
+    .footer__links{
+        flex-direction: column;
+    }
 }

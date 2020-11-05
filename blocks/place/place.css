@@ -9,3 +9,19 @@
                          'image paragraph';
     gap: 48px 40px;
 }
+
+@media all and (max-width: 768px){
+    .place{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0.1fr 1fr;
+        gap: 48px 28px;
+    }
+}
+
+@media all and (max-width: 320px){
+    .place{
+        display: flex;
+        flex-direction: column;
+    }
+}

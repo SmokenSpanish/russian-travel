@@ -1,5 +1,19 @@
 .intro{
-    width: 53.9%;
+    max-width: 690px;
     color: #FFFFFF;
-    margin: 0 442px 92px 148px;
+    padding-left: 100px;
+    margin-bottom: 92px;
+    border: 1px solid red;
+}
+
+@media all and (max-width: 1024px){
+    .intro{
+        padding-left: 0;
+    }
+}
+
+@media all and (max-width: 768px){
+    .intro{
+        max-width: 100%;
+    }
 }

@@ -1,13 +1,31 @@
 .cover__title{
-    width: 47.3%;
+    max-width: 47.3%;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 106%;
+    line-height: 1.06;
     margin-bottom: 0;
     border: 2px solid red;
     text-align: center;
     position: relative;
     z-index: 1;
+    -webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+}
+
+@media all and (max-width: 1024px){
+    .cover__title{
+        max-width: 560px;
+    }
+}
+
+@media all and (max-width: 320px){
+    .cover__title{
+        max-width: 288px;
+        font-family: Inter;
+        font-size: 32px;
+        line-height: 1.09;
+    }
 }

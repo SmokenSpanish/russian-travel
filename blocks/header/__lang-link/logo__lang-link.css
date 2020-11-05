@@ -12,3 +12,15 @@
     margin-right: 0;
     text-decoration: none;
 }
+
+@media all and (max-width: 320px){
+    .logo__lang-link{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 1.11;
+        text-align: right;
+        text-decoration-line: underline;
+    }
+}
