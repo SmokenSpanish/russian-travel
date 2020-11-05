@@ -7,4 +7,4 @@
 3. Резиновая верстка 
 4. Адаптация сайта
 5. Файловоя система по БЭМ в формате Nasted 
-Ссылка на работу на GitHub: 
+Ссылка на [мой сайт](https://smokenspanish.github.io/russian-travel/index.html) на GitHub
