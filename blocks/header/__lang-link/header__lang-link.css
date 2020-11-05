@@ -1,4 +1,4 @@
-.logo__lang-link{
+.header__lang-link{
     color: #FFFFFF;
     font-family: Inter;
     font-style: normal;
@@ -8,13 +8,13 @@
     margin-right: 18px;
 }
 
-.logo__lang-link:last-child{
+.header__lang-link:last-child{
     margin-right: 0;
     text-decoration: none;
 }
 
 @media all and (max-width: 320px){
-    .logo__lang-link{
+    .header__lang-link{
         font-family: Inter;
         font-style: normal;
         font-weight: normal;
