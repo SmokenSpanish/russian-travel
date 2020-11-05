@@ -1,5 +1,4 @@
 .place{
-    border: 2px solid blue;
     display: grid;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
