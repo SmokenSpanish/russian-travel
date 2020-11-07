@@ -1,19 +1,31 @@
 .place{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 0.2fr 1fr;
     grid-template-areas: 'title website'
-                         'image paragraph'
                          'image paragraph';
+   
     gap: 48px 40px;
+    margin-top: 80px;
+}
+
+@media all and (max-width: 1024px){
+    .place{
+        gap: 48px 38px;
+    }
 }
 
 @media all and (max-width: 768px){
     .place{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 0.1fr 1fr;
         gap: 48px 28px;
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 500px){
+    .place{
+        display: flex;
+        flex-direction: column;
     }
 }
 

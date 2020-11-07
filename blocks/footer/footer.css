@@ -2,11 +2,23 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    max-width: 1184px;
+}
+
+@media all and (max-width: 1024px){
+    .footer{
+        max-width: 928px;
+    }
+}
+
+@media all and (max-width: 768px){
+    .footer{
+        max-width: 720px;
+    }
 }
 
 @media all and (max-width: 320px){
     .footer{
-        display: flex;
         flex-direction: column;
     }
 }

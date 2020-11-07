@@ -4,18 +4,20 @@
     color: #FFFFFF;
 }
 
-@media all and (max-width: 768px){
+@media all and (max-width: 1024px){
     .lead{
-        margin-left: -24px;
-        margin-right: -24px;
+        max-width: 928px;
+    }
+}
+
+@media all and (max-width: 600px){
+    .lead__title{
+        width: 100%;
     }
 }
 
 @media all and (max-width: 320px){
     .lead{
-        max-width: 320px;
         margin-bottom: 64px;
-        margin-left: -16px;
-        margin-right: -16px;
     }
 }

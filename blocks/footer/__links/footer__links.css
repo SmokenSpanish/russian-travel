@@ -2,11 +2,15 @@
     display: flex;
     list-style-type: none;
     padding-left: 0;
+    
 }
 
 @media all and (max-width: 320px){
     .footer__links{
         flex-direction: column;
         justify-content: space-between;
+        margin-bottom: 48px;
+        margin-top: 0;
+        height: 250px;
     }
 }
