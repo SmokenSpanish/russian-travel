@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     max-width: 1184px;
-    border: 1px solid purple;
 }
 
 @media all and (max-width: 1024px){
