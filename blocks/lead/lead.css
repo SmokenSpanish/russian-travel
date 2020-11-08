@@ -10,8 +10,8 @@
     }
 }
 
-@media all and (max-width: 600px){
-    .lead__title{
+@media all and (max-width: 675px){
+    .lead{
         width: 100%;
     }
 }
