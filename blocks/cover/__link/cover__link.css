@@ -1,4 +1,9 @@
 .cover__link{
+    color: #FFFFFF;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: center;
